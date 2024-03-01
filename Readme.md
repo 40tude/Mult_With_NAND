@@ -1,3 +1,5 @@
+Mostly a proof of conscet in order to "play" with pytest
+
 **LA** clé c'est, depuis la racine du projet, d'utiliser la commande :
 
 ```python -m pytest```
