@@ -1,23 +1,28 @@
-Mostly a proof of conscet in order to "play" with pytest
+Mostly a proof of conscept in order to "play" with pytest
 
-**LA** clé c'est, depuis la racine du projet, d'utiliser la commande :
+Otherwise ./src/main shows how to multiply or add 4 binary operand using only NAND gates
+
+
+**THE** key is to use the command :
 
 ```python -m pytest```
 
 Versus : 
 ```pytest```
 
-* En effet, la commande "pytest" n'ajoute pas le chemin actuel à PYTHONPATH, ce qui signifie que les modules testés peuvent ne pas être importables.
-* Si besoin assurez-vous de mettre à jour PYTHONPATH avant d'utiliser les commandes courtes.
+* Indeed, the "pytest" command does not add the current path to PYTHONPATH, which means that the modules tested may not be importable.
+* If necessary, make sure to update PYTHONPATH before using the short commands.
 
 ```
 PYTHONPATH=$PYTHONPATH:.
 pytest
 ```
 
-A propos de "__init__.py" 
-Lire : https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html
+
+About ```__init__.py``` 
+* Read: https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html
 
 
-Pour l'organisation des répertoires 
-Lire : https://github.com/AutomationPanda/python-testing-101/tree/master
+For directories organisation 
+* Read: https://github.com/AutomationPanda/python-testing-101/tree/master
+* ```__init__.py``` in src/ sub-directories

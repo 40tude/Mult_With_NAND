@@ -52,7 +52,9 @@ def ADD_4bits(
     return i7, i6, i4, i2, i0
 
 
-def MUL_4bits(op1b3, op1b2, op1b1, op1b0, op2b3, op2b2, op2b1, op2b0):
+def MUL_4bits(
+    op1b3, op1b2, op1b1, op1b0, op2b3, op2b2, op2b1, op2b0
+) -> tuple[bool, bool, bool, bool, bool, bool, bool, bool]:
 
     i0 = AND(op1b0, op2b0)
     i1 = AND(op1b1, op2b0)
