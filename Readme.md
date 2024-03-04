@@ -1,4 +1,4 @@
-Mostly a proof of conscept in order to "play" with pytest
+Mostly a proof of concept in order to "play" with pytest
 
 Otherwise ./src/main shows how to multiply or add 4 binary operands using only NAND gates
 
